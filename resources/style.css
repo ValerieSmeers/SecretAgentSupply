@@ -1,0 +1,15 @@
+html{
+  font-size: 18px;
+}
+div{
+  border: 1px solid black;
+}
+#headername{
+ 
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+}
+header{
+  background-color: black;
+}
