@@ -6,19 +6,26 @@
     <link rel="stylesheet" href="resources/style.css">
     <link rel="stylesheet" href="resources/reset.css">
   </head>
+
   <body>
-<header>
-  <img src="resources/images/logo.png" alt="Logo of white stylised binoculars">
-  <span id = "headername">SECRET AGENT SUPPLY INC.</span>
-  <div class="Content">
+<div class ="header">
+  <div class="container">
+    <img src="resources/images/logo.png" alt="Logo of white stylised binoculars">
+    <span>SECRET AGENT SUPPLY INC.</span>
+  </div>
+</div>
     <div class="Top">
-      <div class="New Arrival">
-        <h4>NEW ARRIVAL</h4>
-        <h1>SPORT BIKES AND MOTORCYCLES</h1>
+      <div class="container">
+        <div class="headlines">
+          <h4>NEW ARRIVAL</h4>
+          <h1>SPORT BIKES AND MOTORCYCLES</h1>
+        </div>
       </div>
     </div>
+
+
     <nav>
-      <ul>
+      <ul class = "container">
         <li>Eyewear</li>
         <li>Appare</li>
         <li>Gadgets</li>
@@ -27,34 +34,40 @@
         <li>Contact</li>
       </ul>
     </nav>
-    <div class="Middle">
+
+    <div class="container">
       <div class="Products">
         <div class="Pen">
-          <img src="resources/images/pen.png" alt="A gold and black pen">
-          <div class="PenName">
-            <h2>ExplodingPen</h2>
+          <div class="product-image">
+            <img src="resources/images/pen.png" alt="A gold and black pen">
           </div>
+            <span class ="description">Exploding Pen</span>
         </div>
         <div class="Watch">
-          <img src="resources/images/watch.png" alt="A silver watch with black readout">
-          <div class="WatchName">
-            <h2>Cellular Watch</h2>
+          <div class="product-image">
+            <img src="resources/images/watch.png" alt="A silver watch with black readout">
           </div>
+          <span class ="description">Cellular Watch</span>
         </div>
         <div class="Glasses">
-          <img src="resources/images/glasses.png" alt="A pair of black sunglasses">
-          <div class="GlassesName">
-            <h2>Thermal Glasses</h2>
+          <div class="product-image">
+            <img src="resources/images/glasses.png" alt="A pair of black sunglasses">
           </div>
+          <span class ="description">Thermal Glasses</span>
         </div>
       </div>
-      <div class="Specifications">
-        <div class="Location">
-          <div class="headerLocation">
+    </div>
 
+
+      <div class="container">
+        <div class="LocHours">
+          <div class="info">
+            <span class ="title">Location</span>
+            <span>-47.346436, 84.32354</span>
           </div>
-          <div class="Locationcoordinates">
-
+          <div class="info">
+            <span class ="title">Hours</span>
+            <span>0800 - 1800</span>
           </div>
         </div>
         <div class="Openinghours">
@@ -66,11 +79,13 @@
           </div>
         </div>
       </div>
-    </div>
-  </div>
+
+
   <footer>
-<span id = "Copyright">Copyright Secret Agent Supply Inc.</span>
+    <div class="container">
+      Copyright Secret Agent Supply Inc.
+    </div>
   </footer>
-</header>
+
   </body>
 </html>
